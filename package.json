@@ -1,5 +1,5 @@
 {
-  "name": "hexo-toc",
+  "name": "@ericytt/hexo-toc",
   "version": "1.1.1",
   "description": "Insert a markdown TOC(Table Of Content) before posts be rendered. ",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ericytt/hexo-toc.git"
+    "url": "git+https://github.com/ericytt/hexo-toc.git"
   },
   "keywords": [
     "hexo",
@@ -19,10 +19,7 @@
     "filter",
     "markdown"
   ],
-  "author": {
-    "name": "eric yang",
-    "email": "ericyy87@gmail.com"
-  },
+  "author": "eric yang <ericyy87@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ericytt/hexo-toc/issues"
@@ -37,5 +34,8 @@
   },
   "devDependencies": {
     "jshint": "^2.9.1"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
