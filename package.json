@@ -1,14 +1,8 @@
 {
   "name": "@ericytt/hexo-toc",
-  "version": "1.1.2",
+  "version": "2.0.0",
   "description": "Insert a markdown TOC(Table Of Content) before posts be rendered. ",
   "main": "index.js",
-  "scripts": {
-    "lint": "jshint index.js",
-    "pretest": "npm run lint",
-    "test": "echo ",
-    "prepublish": "npm test"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ericytt/hexo-toc.git"
@@ -21,21 +15,11 @@
   ],
   "author": "eric yang <ericyy87@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ericytt/hexo-toc/issues"
-  },
   "homepage": "https://github.com/ericytt/hexo-toc",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.12",
     "markdown-toc": "^1.2.0",
     "object-assign": "^4.1.1",
     "transliteration": "^2.3.5",
     "uslug": "^1.0.4"
-  },
-  "devDependencies": {
-    "jshint": "^2.9.1"
-  },
-  "directories": {
-    "lib": "lib"
   }
 }
